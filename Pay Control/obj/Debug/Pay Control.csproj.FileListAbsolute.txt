@@ -1,0 +1,18 @@
+C:\Users\Breno\source\repos\Financial Family\Pay Control\bin\Debug\Pay Control.exe.config
+C:\Users\Breno\source\repos\Financial Family\Pay Control\bin\Debug\Pay Control.exe
+C:\Users\Breno\source\repos\Financial Family\Pay Control\bin\Debug\Pay Control.pdb
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay Control.csprojAssemblyReference.cache
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.Properties.Resources.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay Control.csproj.GenerateResource.cache
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay Control.csproj.CoreCompileInputs.cache
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay Control.exe
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay Control.pdb
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmhome.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmlogin.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmreceitas.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmrecoutros.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmrecsegsocial.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmrectw.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmregistro.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmrecsalario.resources
+C:\Users\Breno\source\repos\Financial Family\Pay Control\obj\Debug\Pay_Control.frmdespesas.resources
