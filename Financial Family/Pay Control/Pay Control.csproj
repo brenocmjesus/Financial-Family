@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{52A1C33C-0256-4160-8301-EAFFD7F81DB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pay_Control</RootNamespace>
+    <AssemblyName>Pay Control</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\connection.cs" />
+    <Compile Include="Controle\Controle.cs" />
+    <Compile Include="DAL\LoginDaoComandos.cs" />
+    <Compile Include="dbFinancialFamilyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbFinancialFamilyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmdespesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmdespesas.Designer.cs">
+      <DependentUpon>frmdespesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrecoutros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrecoutros.Designer.cs">
+      <DependentUpon>frmrecoutros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrecsegsocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrecsegsocial.Designer.cs">
+      <DependentUpon>frmrecsegsocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrectw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrectw.Designer.cs">
+      <DependentUpon>frmrectw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmreceitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmreceitas.Designer.cs">
+      <DependentUpon>frmreceitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmhome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmhome.Designer.cs">
+      <DependentUpon>frmhome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmlogin.Designer.cs">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmrecsalario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmrecsalario.Designer.cs">
+      <DependentUpon>frmrecsalario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmregistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmregistro.Designer.cs">
+      <DependentUpon>frmregistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmdespesas.resx">
+      <DependentUpon>frmdespesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrecsalario.resx">
+      <DependentUpon>frmrecsalario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrecoutros.resx">
+      <DependentUpon>frmrecoutros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmreceitas.resx">
+      <DependentUpon>frmreceitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmhome.resx">
+      <DependentUpon>frmhome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmlogin.resx">
+      <DependentUpon>frmlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrecsegsocial.resx">
+      <DependentUpon>frmrecsegsocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmrectw.resx">
+      <DependentUpon>frmrectw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmregistro.resx">
+      <DependentUpon>frmregistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="dbFinancialFamilyDataSet.xsc">
+      <DependentUpon>dbFinancialFamilyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbFinancialFamilyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbFinancialFamilyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbFinancialFamilyDataSet.xss">
+      <DependentUpon>dbFinancialFamilyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\changing-money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bem-vindo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\relatorio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\envelope1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\segsocial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\131913164.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-debit-card-transferwise-bank-credit-card-payment-mastercard-5acafc66ed1915.9127750615232523269712.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dinheiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carteira.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\etiqueta-de-preco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Database\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
